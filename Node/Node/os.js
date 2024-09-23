@@ -1,0 +1,5 @@
+const os=require('os')
+console.log("platform: " ,os.platform())
+console.log("Total memory: " ,os.totalmem())
+console.log("Free memory: " ,os.freemem())
+console.log("N.o of core: " ,os.cpus().length)
