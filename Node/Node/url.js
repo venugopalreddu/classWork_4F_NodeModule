@@ -1,5 +1,5 @@
 const url=require('url')
-const address="http://124.0.0.1:8000/reg.html?name=Hemanth&age=33"
+const address="http://124.0.0.1:8000/reg.html?name=venu&age=33"
 const parsedAddress=url.parse(address,true)
 console.log(parsedAddress)
 console.log("Hostname: " ,parsedAddress.hostname)
